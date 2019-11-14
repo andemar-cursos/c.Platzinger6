@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ConversationComponent } from './conversation/conversation.component';
 import { ProfileComponent } from './profile/profile.component';
 import {RouterModule, Routes} from '@angular/router';
+import { MenuComponent } from './menu/menu.component';
 //Rutas de acceso a componentes mediante url
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -21,7 +22,8 @@ const appRoutes: Routes = [
     LoginComponent,
     HomeComponent,
     ConversationComponent,
-    ProfileComponent
+    ProfileComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
